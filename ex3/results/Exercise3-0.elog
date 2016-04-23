@@ -1,0 +1,18 @@
+E # 0 t 0 m 1 ce -1 msg -1
+SB v 1030 rid Exercise3-0-20160423-11:56:24-4581 b 1000
+KF p -1 c "" s ""
+MC id 1 c cModule t Ex3Network n Ex3Network cm 1
+MS id 1 d ""
+MC id 2 c Sender t Sender pid 1 n sender
+GC m 2 g 1 n out o 1
+MS id 2 d ""
+MC id 3 c Reciever t Reciever pid 1 n reciever
+GC m 3 g 0 n in o 0
+MS id 3 d ""
+CC sm 2 sg 1 dm 3 dg 0
+CS sm 2 sg 1 d ""
+
+E # 617 t 319.537847596934 m 2 ce -1 msg -1
+CM id 927 tid 927 eid 927 etid 927 c cMessage n selfmsg pe -1
+BS id 927 tid 927 eid 927 etid 927 c cMessage n selfmsg pe 617
+ES t 319.662772628249

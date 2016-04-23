@@ -1,0 +1,23 @@
+file 12440 1461406510                                           
+version 2
+run Exercise3-0-20160423-11:56:24-4581
+attr configname Exercise3
+attr datetime 20160423-11:56:24
+attr experiment Exercise3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Ex3Network
+attr processid 4581
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 0  Ex3Network.reciever  currentInterarrival:vector  ETV
+attr interpolationmode  none
+attr source  arrival
+attr title  "currentInterarrival time, vector"
+0	532 11908 2 618 0.100007826399 319.637847596934 309 0.100007826399 1.1244482968265 307.17001999236 310.01843060027

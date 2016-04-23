@@ -1,0 +1,28 @@
+version 2
+run Exercise3-0-20160423-11:56:24-4581
+attr configname Exercise3
+attr datetime 20160423-11:56:24
+attr experiment Exercise3
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Ex3Network
+attr processid 4581
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+statistic Ex3Network.reciever 	currentInterarrival:stats
+field count 309
+field mean 0.99407773460311
+field stddev 0.12310317956525
+field sum 307.17001999236
+field sqrsum 310.01843060027
+field min 0.100007826399
+field max 1.1244482968265
+attr interpolationmode  none
+attr source  arrival
+attr title  "currentInterarrival time, stats"
